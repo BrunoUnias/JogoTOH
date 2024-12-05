@@ -1,13 +1,13 @@
-const input = document.querySelector('login_input');
-const button = document.querySelector('login_button');
+const input = document.querySelector('input');
+const button = document.querySelector('button');
 
-const validateInput = ({ target}) => {
-    if(target.value.length > 2) {
-        button.removeAttribute('disable');
-    } else {
-        button.setAttribute('disable', '');
+const validateInput = ({ target }) => {
+    if (target.value.length > 3) {
+      button.removeAttribute('disabled');
+      return;
     }
-    
-}
+  
+    button.setAttribute('disabled', '');
+  }
 
-input.addEventListener(validateInput, 'input');
+  input.addEventListener('input', validateInput);
