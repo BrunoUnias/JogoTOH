@@ -1,6 +1,6 @@
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 15px;
     width: 100%;
     max-width: 800px;
@@ -26,11 +26,11 @@
     position: absolute;
     background-size: cover;
     background-position: center;  
+    border-radius: 5px;
 
 }
 
 .front {
-   background-image: url("../memoria/collector.jpg");
    transform: rotateY(180deg);
 
 }
