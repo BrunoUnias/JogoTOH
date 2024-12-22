@@ -1,3 +1,9 @@
+body {
+    background-image: url("../image/_casa.webp");
+    background-size: cover;
+    background-position: center;  
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
