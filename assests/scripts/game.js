@@ -1,6 +1,6 @@
  const grid = document.querySelector('.grid');   
-
- grid.getAttribute
+ const spanPlayer = document.querySelector('.player');
+ const timer = document.querySelector('.timer');
 
  const createElement = (tag, className) => {
     const element = document.createElement(tag);
@@ -33,8 +33,9 @@
 
 
    if(disabledCards.length === 20){
+      clearInterval(this.loop)
       setTimeout(() => {
-         alert('parabens venceu o jogo');
+         alert(`paranbens ${spanPlayer.innerHTML}! seu tempo foi ${timer.innerHTML}`);
       }, 500);
       
    }
@@ -100,6 +101,14 @@
     
  }
 
+ const startTimer = () => {
+   this.loop = setInterval(() => {
+      const currentTime = +timer.innerHTML;
+      timer.innerHTML = currentTime + 1;
+
+   }, 1000);
+ }
+
  const loadGame = () => {
 
    const duplicateCharacters = [...characters, ...characters];
@@ -115,4 +124,12 @@
 
  }
 
-loadGame();
+window.onload = () => {
+   const playerName = localStorage.getItem('player');
+   
+   spanPlayer.innerHTML = playerName;
+
+   startTimer();
+   loadGame();
+}
+
