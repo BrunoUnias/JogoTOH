@@ -29,7 +29,8 @@
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-- [html](https://www.w3.org/html/)
+- [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+  [html](https://www.w3.org/html/)
 - [css](https://www.w3.org/Style/CSS/Overview.en.html)
 - [javascript](https://www.javascript.com/)
 
