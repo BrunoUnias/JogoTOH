@@ -22,17 +22,20 @@
 ### Status do Projeto
 
 <h4 align="center"> 
-     🚀 Finalizado 🚀
+     🚀 ![Static Badge](https://img.shields.io/badge/status-finalizado-green) 🚀
 </h4>
+
+### Resultado final
+
+    Pagina de login
+    ![alt text](assests/image/lo.png)
+
+    Pagina do jogo
+    ![alt text](assests/image/jo.png)
 
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
-
-
-
-
-
 
 - ![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white) (https://www.w3.org/html/)
 - ![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff) (https://www.w3.org/Style/CSS/Overview.en.html)
