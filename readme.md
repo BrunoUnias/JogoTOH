@@ -21,14 +21,12 @@
 
 ### Status do Projeto
 
-<h4 align="center"> 
      🚀 ![Static Badge](https://img.shields.io/badge/status-finalizado-green) 🚀
-</h4>
 
 ### Resultado final
 
     Pagina de login
-    ![alt text](assests/image/lo.png)
+   <img src="assests/image/lo.png" alt="">
 
     Pagina do jogo
     ![alt text](assests/image/jo.png)
