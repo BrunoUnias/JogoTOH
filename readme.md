@@ -21,7 +21,7 @@
 
 ### Status do Projeto
 
-     🚀 ![Static Badge](https://img.shields.io/badge/status-finalizado-green) 🚀
+     ![Static Badge](https://img.shields.io/badge/status-finalizado-green) 
 
 ### Resultado final
 
@@ -29,7 +29,7 @@
    <img src="assests/image/lo.png" alt="">
 
     Pagina do jogo
-    ![alt text](assests/image/jo.png)
+    <img src="assests/image/jo.png" alt="">
 
 ### 🛠 Tecnologias
 
