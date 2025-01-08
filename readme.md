@@ -20,7 +20,8 @@
 
 ### Status do Projeto
 
-     ![Static Badge](https://img.shields.io/badge/status-finalizado-green) 
+   ![Static Badge](https://img.shields.io/badge/status-finalizado-green) 
+
 
 ### Resultado final
 
@@ -42,7 +43,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Contribuições
 
 ![Static Badge](https://img.shields.io/badge/forks-0-green)
-
 ### Licença
 
 ![Static Badge](https://img.shields.io/badge/license-MIT-blue) 
