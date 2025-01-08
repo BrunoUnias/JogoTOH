@@ -32,6 +32,9 @@
 
    <img src="assests/image/jo.png" alt="">
 
+   link para acessar
+   <a  href="https://brunounias.github.io/JogoTOH/">Jogo da Memoria</a>
+
 ### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
